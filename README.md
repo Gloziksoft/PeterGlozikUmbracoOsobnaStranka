@@ -1,4 +1,4 @@
-# Umbraco Osobná Webstránka / Personal Website
+# Personal Website
 
 ## 📦 Requirements / Požiadavky
 
@@ -9,15 +9,15 @@
 
 ---
 
-## 🛠️ Setup Instructions / Inštalačný postup
+## 🛠️ Setup Instructions
 
-### 1. Download the Project / Stiahnutie projektu
+### 1. Download the Project
 
 Download the entire project folder to your computer.
 
 ---
 
-### 2. Add the Validation Library / Pridanie validačnej knižnice
+### 2. Add the Validation Library
 
 1. Open the solution in **Visual Studio Community**.
 2. Go to the `dufeksoft.lib` folder.
@@ -31,7 +31,7 @@ Download the entire project folder to your computer.
 
 ---
 
-### 3. Set Up the Database / Vytvorenie databázy
+### 3. Set Up the Database
 
 1. Open **SQL Server Management Studio (SSMS)**.
 2. Create a new database (e.g. `PortfoliokDB`).
@@ -40,7 +40,7 @@ Download the entire project folder to your computer.
 
 ---
 
-### 4. Configure Database in `web.config` / Nastavenie `web.config`
+### 4. Configure Database in `web.config`
 
 1. Open the `web.config` file in your main project.
 2. Find the `<connectionStrings>` section.
@@ -58,7 +58,7 @@ Download the entire project folder to your computer.
 
 ---
 
-### 5. Run the Project / Spustenie projektu
+### 5. Run the Project
 
 1. In Visual Studio Community, set the main web project as the **Startup Project**.
 2. Build the solution.
@@ -66,7 +66,7 @@ Download the entire project folder to your computer.
 
 ---
 
-## ⚠️ Notes / Poznámky
+## ⚠️ Notes
 
 - Only **Visual Studio Community** is supported.
 - Do **not** forget to add and reference the `dufeksoft.lib` project.
